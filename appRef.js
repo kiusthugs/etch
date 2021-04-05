@@ -1,5 +1,6 @@
 let grid = document.querySelector('.etchContainer');
 let init = 16;
+
 //Create 16x16 grid initially
 function runGrid() {
     for (let i = 0; i < init * init; i++) {
