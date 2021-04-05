@@ -101,6 +101,6 @@ button:hover {
     letter-spacing: 1px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(252, 74, 26, .57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(252, 74, 26, .57);
-    box-shadow: 5px 40px -10px rgba(252, 74, 27, .57);
+    box-shadow: 5px 40px -10px rgba(252, 74, 26, .57);
     transition: all 0.2s ease 0s;
 }
