@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #4abdac;
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Grid Style
+   ========================================================================== */
+.etchContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    margin: 25px auto;
+    background-color: white;
+}
+
+.etchContainer div {
+    outline: 1px solid black;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+
+/* Heading
+   ========================================================================== */
+header {
+    color: white;
+    background-color: #dfdce3;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+h1 {
+    font-size: 5em;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Buttons
+   ========================================================================== */
+button {
+    color: #fff !important;
+    text-transform: uppercase;
+    background: #f7b733;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    font-size: .9em;
+}
+
+button:hover {
+    background: #fc4a1a;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out 0s;
+}
