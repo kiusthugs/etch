@@ -70,7 +70,7 @@ document.addEventListener('click', e => {
     if (e.target.classList.contains('black')) {
         grid.addEventListener('mouseover', e => {
             if (e.target.classList.contains('block')) {
-                e.target.style.backgroundColor = 'blac';
+                e.target.style.backgroundColor = 'black';
             }
         })
     }
