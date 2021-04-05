@@ -1,0 +1,106 @@
+/*Etch A Sketch Styling*/
+
+/*Float*/
+/* .etchContainer {
+    height: 200px;
+    width: 200px;
+}
+
+
+.etchContainer div {
+    float: left;
+    height: 50px;
+    width: 50px;
+    outline: 1px solid red;
+} */
+
+/*Inline-block
+    Use line-height: 0 on container as inline-block inherits a default value for line height
+*/
+/* .etchContainer {
+    height: 200px;
+    width: 200px;
+    line-height: 0;
+}
+
+.etchContainer div {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    outline: 1px solid red;
+} */
+
+/*Grid*/
+
+/* .etchContainer {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+
+.etchContainer div {
+    height: 50px;
+    width: 50px;
+    outline: 1px solid red;
+} */
+/* Flexbox*/
+body {
+    margin: 0;
+    background-color: #4abdac;
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.etchContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    margin: 25px auto;
+    background-color: white;
+    /* center */
+}
+
+.etchContainer div {
+    outline: 1px solid black;
+    /*outline instead of border so outline can overlap the container and not over wrap the divs depending on set container size*/
+}
+
+.container {
+    padding-top: 30px;
+}
+
+header {
+    color: white;
+    background-color: #dfdce3;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+h1 {
+    font-size: 5em;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #f7b733;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    font-size: .9em;
+}
+
+button:hover {
+    background: #fc4a1a;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(252, 74, 26, .57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(252, 74, 26, .57);
+    box-shadow: 5px 40px -10px rgba(252, 74, 26, .57);
+    transition: all 0.2s ease 0s;
+}
